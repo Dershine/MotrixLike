@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<?import javafx.scene.text.Font?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.dershines.sceneController"
+            prefHeight="400.0" prefWidth="600.0">
+
+    <Tab fx:id="Proc_title0" text="Proc 0">
+        <content>
+            <TextArea fx:id="Proc_text0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="200.0" prefWidth="200.0" promptText="请输入要通信的内容" wrapText="true">
+                <font>
+                    <Font size="24.0" />
+                </font>
+            </TextArea>
+        </content>
+    </Tab>
+
+</AnchorPane>
